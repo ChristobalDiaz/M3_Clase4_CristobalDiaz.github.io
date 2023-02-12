@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.card img´{
+    height: 200px;
+    object-fit: cover;
+}
+h1 {
+    font-family: 'Roboto Mono', monospace; 
+    color: transparent;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.0015em;
+    background-image: linear-gradient(180deg, #2c38e0, #1e995c);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+body{
+    background-image: url('/images/backg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Productos{
+    background-color: yellowgreen;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: black;
+}
+#Productos.col{
+    text-align: center;
+}
+
+footer{
+    padding-top: 3rem;
+    background-color: #94e8f3;
+    backdrop-filter: blur(5px);
+    color: rgb(66, 66, 66);
+    height: 150px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+#Banner {
+    background-image: linear-gradient(180deg, #969cfa, #96fdc9);
+    backdrop-filter: blur(5px);
+
+}

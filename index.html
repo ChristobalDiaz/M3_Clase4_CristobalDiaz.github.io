@@ -5,8 +5,168 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto final</title>
+    <!--Para un icono-->
+    <link rel="shortcut icon" href="images/iconos/favicon.png" type="image/x-icon">
+    <!--Referencias de boostrop-->
+    <link rel="stylesheet" href="dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <script src="dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Proyecto final</h1>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img src="images/iconos/favicon.png" alt="Logotipo" width="30">
+                    MiPortafolio
+                </a>
+                <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#MenuContenido"
+                aria-controls="MenuContenido"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon">
+                </span>
+                
+                </button>
+                <div class="collapse navbar-collapse" id="MenuContenido">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Proyectos">Mis proyectos</a>
+                    </li >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+    <main>
+        <div class="mb-5" id="Banner">
+        <div class="container pt-5 pb-5" >
+            <h1>Cristobal Diaz</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ducimus mollitia tenetur nobis sapiente modi facilis unde tempore quidem aspernatur quo, veritatis ad laborum doloribus sint, aperiam quisquam, obcaecati omnis?</p>
+            <button class="btn btn-primary">Registrarme</button>
+            <button class="btn btn-success">Saber mas...</button>
+        </div>
+    </div>
+    <section id="#Proyectos" class="mb-5">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor nesciunt excepturi debitis hic ab? Saepe odio neque doloribus accusantium ab quibusdam, quidem aliquid, esse quasi iure labore, dignissimos quaerat doloremque?</p>
+            <div class="row">
+                <div class="col">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="images/dise-s.jpg" srcset="images/dise-s.jpg 480w, images/dise-m.jpg 800w" alt="Diseño web">
+                        
+                        <div class="card-body"><h5>Diseño Web</h5></div>
+                        
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="images/bd-s.jpg" srcset="images/bd-s.jpg 480w, images/bd-m.jpg 800w" alt="Base de datos">
+                        <div class="card-body"><h5>Base de Datos</h5></div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="images/app-s.jpg" srcset="images/app-s.jpg 480w, images/app-m.jpg 800w" alt="Aplicaciones">
+                        <div class="card-body"><h5>Apps</h5></div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="images/serv-s.jpg" srcset="images/serv-s.jpg 480w, images/serv-m.jpg 800w" alt="">
+                        <div class="card-body"><h5>Servicios</h5></div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+           
+        </div>
+
+    </section>
+    <section id="Productos" class="mb-5">
+        <div>
+            <h2>Productos</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, tenetur cumque quis consequatur porro eveniet vitae quae ipsam praesentium odit neque iusto sit, consequuntur qui sunt doloremque! Eveniet, vitae nostrum?</p>
+            <div class="row">
+                <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-0-circle-fill" viewBox="0 0 16 16">
+                        <path d="M8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"/>
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.012 4.158c1.858 0 2.96-1.582 2.96-3.99V7.84c0-2.426-1.079-3.996-2.936-3.996-1.864 0-2.965 1.588-2.965 3.996v.328c0 2.42 1.09 3.99 2.941 3.99Z"/>
+                      </svg>
+                    <h5>Exective</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam voluptatum placeat consequuntur quo nam, facere cumque aliquid deserunt veniam quod blanditiis ipsum a magni non odit impedit totam amet!
+                    </p>
+                </div>
+                <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                        <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+                        <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+                      </svg>
+                    <h5>Alliance</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam voluptatum placeat consequuntur quo nam, facere cumque aliquid deserunt veniam quod blanditiis ipsum a magni non odit impedit totam amet!
+                    </p>
+                </div>
+                <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+                        <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                      </svg>
+                    <h5>Company</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam voluptatum placeat consequuntur quo nam, facere cumque aliquid deserunt veniam quod blanditiis ipsum a magni non odit impedit totam amet!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="Contacto" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Contacto</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur laboriosam culpa odit rerum assumenda repellendus autem est similique dicta enim? Quos ullam praesentium numquam a, deserunt laudantium corporis suscipit quod.
+                    
+                    </p>
+                </div>
+                <div class="col">
+                    <form action="">
+                        <label for="contacto_mail">Escribe tu correo</label>
+                        <input type="email" id="contacto_email" class="form-control form-control-sm" placeholder="name@domain.com">
+                        <label for="contacto_message">Escribe tus comentarios</label>
+                        <textarea name="contacto_message" id="contacto_message" class="form-control form-control-sm"></textarea>
+                        <input type="submit" value="Enviar" class="btn btn-success mt-4">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="container">
+            &copy; 2023 | Cristobal Diaz | Diseño web
+        </div>
+    </footer>
+    
 </body>
 </html>
